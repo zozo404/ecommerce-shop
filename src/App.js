@@ -12,13 +12,13 @@ import Footer from './components/Footer';
 const App = () => {
   return <div className='overflow-hidden'>
     <Router>
-      <Header/>
+      <Header />
       <Routes>
-        <Route path='/' element={<Home/>} />
+        <Route path='/' element={<Home />} />
         <Route path='/product/:id' element={<ProductsDetails />} />
       </Routes>
-      <Sidebar/>
-      <Footer/>
+      <Sidebar />
+      <Footer />
     </Router>
   </div>;
 };
